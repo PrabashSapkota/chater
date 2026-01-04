@@ -1,0 +1,54 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #020617;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.light {
+  background: #ffffff;
+  color: #000;
+}
+
+#usernameBox, #chatBox {
+  width: 380px;
+  background: #020617;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+#messages {
+  height: 300px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+}
+
+.msg span {
+  font-weight: bold;
+}
+
+.system {
+  color: gray;
+  font-size: 12px;
+}
+
+.inputRow {
+  display: flex;
+}
+
+input {
+  flex: 1;
+  padding: 8px;
+}
+
+button {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
